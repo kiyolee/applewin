@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C++ Express 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Applewin", "AppleWinExpress2008.vcproj", "{1DA0C491-B5F4-4EC8-B1D2-CF6BE635DADC}"
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AppleWin", "AppleWinExpress2008.vcproj", "{1DA0C491-B5F4-4EC8-B1D2-CF6BE635DADC}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5CE8051A-3F0C-4C39-B1C0-3338E48BA60F} = {5CE8051A-3F0C-4C39-B1C0-3338E48BA60F}
 		{7935B998-C713-42AE-8F6D-9FF9080A1B1B} = {7935B998-C713-42AE-8F6D-9FF9080A1B1B}

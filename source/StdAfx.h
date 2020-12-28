@@ -22,7 +22,6 @@ typedef UINT64 uint64_t;
 #include <shlwapi.h>
 #include <strsafe.h>
 #include <commctrl.h>
-#include <ddraw.h>
 #include <htmlhelp.h>
 #include <assert.h>
 
