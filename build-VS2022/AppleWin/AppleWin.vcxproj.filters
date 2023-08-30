@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CommonVICE">
+      <UniqueIdentifier>{1afac016-2150-4c48-9263-4734029645fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Configuration">
+      <UniqueIdentifier>{b9d828ef-759e-4b54-826b-9b131c10e84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CPU">
+      <UniqueIdentifier>{d6cfe778-d709-46f2-bd49-52c3b9a1f5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Debugger">
+      <UniqueIdentifier>{052db224-f32a-41c5-b302-fd077b57af2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Disk">
+      <UniqueIdentifier>{e787cd07-2179-4508-8fb5-1b397232fe73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Emulator">
+      <UniqueIdentifier>{75d37075-bf67-4dc0-abfa-f4f499668d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{02fe3488-8776-4239-9476-a901a391eb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Uthernet">
+      <UniqueIdentifier>{b5c46e02-0bd8-4bad-84ad-a17d821efcee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Video">
+      <UniqueIdentifier>{ecc8aa4a-a429-44af-888b-5a12d0098038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Windows">
+      <UniqueIdentifier>{a47afbbf-d846-4d1f-91d2-0b11ec4b8819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Z80VICE">
+      <UniqueIdentifier>{e80f2c87-4d44-40bc-aebf-05f927308395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Configuration">
+      <UniqueIdentifier>{07d634b4-3084-4504-9002-41cf7d6bba76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CPU">
+      <UniqueIdentifier>{b6ba5685-d3c2-45ac-b772-3628ed11f816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Debugger">
+      <UniqueIdentifier>{769605a6-f8b2-4688-b575-26589f667a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Disk">
+      <UniqueIdentifier>{42d59463-c29f-4920-be3d-8af38ad06393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Emulator">
+      <UniqueIdentifier>{25aef9ea-2509-446b-a671-2af83d11e28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{d06d3f96-a64a-43b0-bf77-6455a83279a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Uthernet">
+      <UniqueIdentifier>{129ca4ef-437b-4ecb-baf6-430844bb527f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Video">
+      <UniqueIdentifier>{9a6b73a1-41d7-47be-9dbe-ba86456d32e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{2be4e46a-28ab-4fbe-9401-da3733201ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Z80VICE">
+      <UniqueIdentifier>{a95f94be-7800-48e2-941f-a9204b795966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{40a8a0a3-9b21-414e-99a1-673a19f1c3ec}</UniqueIdentifier>
+      <Extensions>*.txt</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\ROM">
+      <UniqueIdentifier>{98f52fa6-6548-46da-a90c-d604ccced74c}</UniqueIdentifier>
+      <Extensions>*.rom;*.bin</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{ba315714-9c4a-4066-9c0a-96b2b95cf127}</UniqueIdentifier>
+      <Extensions>*.bmp;*.ico</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\CmdLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Configuration\About.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Configuration\PageAdvanced.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Configuration\PageConfig.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Configuration\PageConfigTfe.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Configuration\PageDisk.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Configuration\PageInput.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Configuration\PageSound.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Configuration\PropertySheet.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Configuration\PropertySheetHelper.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debug.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debugger_Assembler.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debugger_Color.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debugger_Commands.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debugger_Console.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debugger_DisassemblerData.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debugger_Display.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debugger_Help.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debugger_Parser.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debugger_Range.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debugger_Symbols.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Util_MemoryTextFile.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Z80VICE\daa.cpp">
+      <Filter>Source Files\Z80VICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Z80VICE\z80.cpp">
+      <Filter>Source Files\Z80VICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Z80VICE\z80mem.cpp">
+      <Filter>Source Files\Z80VICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\CPU.cpp">
+      <Filter>Source Files\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Disk.cpp">
+      <Filter>Source Files\Disk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\DiskImage.cpp">
+      <Filter>Source Files\Disk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\DiskImageHelper.cpp">
+      <Filter>Source Files\Disk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Harddisk.cpp">
+      <Filter>Source Files\Disk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\6821.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\AY8910.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\CardManager.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\FourPlay.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Joystick.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Keyboard.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\LanguageCard.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Log.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Memory.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Mockingboard.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\MouseInterface.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\NoSlotClock.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\ParallelPrinter.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Registry.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Riff.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\SAM.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\SaveState.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\SerialComms.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\SNESMAX.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\SoundCore.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Speaker.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Speech.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\SSI263.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\SynchronousEventManager.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Tape.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\YamlHelper.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\z80emu.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Pravets.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Tfe\tfearch.cpp">
+      <Filter>Source Files\Uthernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Tfe\tfesupp.cpp">
+      <Filter>Source Files\Uthernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Tfe\Uilib.cpp">
+      <Filter>Source Files\Uthernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\FrameBase.cpp">
+      <Filter>Source Files\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\NTSC.cpp">
+      <Filter>Source Files\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\NTSC_CharSet.cpp">
+      <Filter>Source Files\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Video.cpp">
+      <Filter>Source Files\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\DiskFormatTrack.cpp">
+      <Filter>Source Files\Disk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\RGBMonitor.cpp">
+      <Filter>Source Files\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Disk2CardManager.cpp">
+      <Filter>Source Files\Disk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Windows\AppleWin.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Windows\DirectInput.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Windows\Win32Frame.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Windows\WinFrame.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debugger_Disassembler.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Debugger\Debugger_Win32.cpp">
+      <Filter>Source Files\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Windows\HookFilter.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Card.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\VidHD.cpp">
+      <Filter>Source Files\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\6522.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\StrFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Tfe\tfe.cpp">
+      <Filter>Source Files\Uthernet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\CmdLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\CommonVICE\6510core.h">
+      <Filter>Header Files\CommonVICE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\CommonVICE\interrupt.h">
+      <Filter>Header Files\CommonVICE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\CommonVICE\mem.h">
+      <Filter>Header Files\CommonVICE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\CommonVICE\types.h">
+      <Filter>Header Files\CommonVICE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\About.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\Config.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\IPropertySheet.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\IPropertySheetPage.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\PageAdvanced.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\PageConfig.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\PageConfigTfe.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\PageDisk.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\PageInput.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\PageSound.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\PropertySheet.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\PropertySheetDefs.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Configuration\PropertySheetHelper.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\CPU\cpu6502.h">
+      <Filter>Header Files\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\CPU\cpu65C02.h">
+      <Filter>Header Files\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debug.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\DebugDefs.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debugger_Assembler.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debugger_Color.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debugger_Console.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debugger_DisassemblerData.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debugger_Display.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debugger_Help.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debugger_Parser.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debugger_Range.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debugger_Symbols.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debugger_Types.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Util_MemoryTextFile.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Util_Text.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SaveState_Structs_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SaveState_Structs_v1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SSI263Phonemes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Z80VICE\daa.h">
+      <Filter>Header Files\Z80VICE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Z80VICE\z80.h">
+      <Filter>Header Files\Z80VICE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Z80VICE\z80mem.h">
+      <Filter>Header Files\Z80VICE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Z80VICE\z80regs.h">
+      <Filter>Header Files\Z80VICE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resource\resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resource\winres.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\CPU.h">
+      <Filter>Header Files\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Disk.h">
+      <Filter>Header Files\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\DiskDefs.h">
+      <Filter>Header Files\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\DiskImage.h">
+      <Filter>Header Files\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\DiskImageHelper.h">
+      <Filter>Header Files\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Harddisk.h">
+      <Filter>Header Files\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\6821.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\AY8910.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Card.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\CardManager.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\FourPlay.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Joystick.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Keyboard.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\LanguageCard.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Log.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Memory.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Mockingboard.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\MouseInterface.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\NoSlotClock.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\ParallelPrinter.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Registry.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Riff.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SAM.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SaveState.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SerialComms.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SNESMAX.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SoundCore.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Speaker.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Speech.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SSI263.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SynchronousEventManager.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Tape.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\YamlHelper.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\z80emu.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Pravets.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Tfe\Bpf.h">
+      <Filter>Header Files\Uthernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Tfe\Ip6_misc.h">
+      <Filter>Header Files\Uthernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Tfe\Pcap.h">
+      <Filter>Header Files\Uthernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Tfe\Tfearch.h">
+      <Filter>Header Files\Uthernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Tfe\Tfesupp.h">
+      <Filter>Header Files\Uthernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Tfe\Uilib.h">
+      <Filter>Header Files\Uthernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\FrameBase.h">
+      <Filter>Header Files\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\NTSC.h">
+      <Filter>Header Files\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\NTSC_CharSet.h">
+      <Filter>Header Files\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Video.h">
+      <Filter>Header Files\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\DiskFormatTrack.h">
+      <Filter>Header Files\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\DiskLog.h">
+      <Filter>Header Files\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\RGBMonitor.h">
+      <Filter>Header Files\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Disk2CardManager.h">
+      <Filter>Header Files\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Windows\AppleWin.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Windows\DirectInput.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Windows\Win32Frame.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debugger_Disassembler.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Debugger\Debugger_Win32.h">
+      <Filter>Header Files\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Windows\HookFilter.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VidHD.h">
+      <Filter>Header Files\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\6522.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\StrFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Tfe\tfe.h">
+      <Filter>Header Files\Uthernet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\source\CPU\cpu_general.inl">
+      <Filter>Header Files\CPU</Filter>
+    </None>
+    <None Include="..\..\source\CPU\cpu_instructions.inl">
+      <Filter>Header Files\CPU</Filter>
+    </None>
+    <None Include="..\..\docs\CodingConventions.txt">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="..\..\docs\Debugger_Changelog.txt">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="..\..\docs\FAQ.txt">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="..\..\docs\ToDo.txt">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="..\..\docs\Video_Cleanup.txt">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="..\..\docs\Wishlist.txt">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="..\..\bin\History.txt">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="..\..\resource\Apple2.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\Apple2_JPlus.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\Apple2_JPlus_Video.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\Apple2e_Enhanced.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\Apple2_Plus.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\Apple2e.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\Disk2-13sector.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\DISK2.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\PRAVETS82.ROM">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\PRAVETS8M.ROM">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\PRAVETS8C.ROM">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\TK3000e.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\TKClock.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\Base64A.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\Base64A_German_Video.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\Mockingboard-D.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\MouseInterface.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\Parallel.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\Freezes_Non-autostart_F8_Rom.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\SSC.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\ThunderClockPlus.rom">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\Hddrvr.bin">
+      <Filter>Resource Files\ROM</Filter>
+    </None>
+    <None Include="..\..\resource\APPLEWIN.ICO">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\LED_CAPS_ON.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\ApplewinLogo.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\CAPSOFF.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\CAPSOFF_P8.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\CAPSON.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\CAPSON_P8.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\CHARSET4.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\CHARSET82.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\CHARSET8C.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\CHARSET8M.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\COLOR.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\DEBUG.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\Debug_Font.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\DISK.ICO">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\DISKOFF.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\DISKPROT.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\DISKREAD.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\DISKWRIT.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\DRIVE1.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\DRIVE2.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\DriveSwap.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\FULLSCR.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\HELP.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\LATOFF.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\LATON.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\LED_CAPS_OFF.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\LED_CAPS_OFF_LAT.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\LED_CAPS_OFF_P8.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\Applewin.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\LED_CAPS_ON_LAT.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\LED_CAPS_ON_P8.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\RUN.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\RUN3000E.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\RUNBASE64A.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\RUNP.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="..\..\resource\SETUP.BMP">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\resource\Applewin.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
