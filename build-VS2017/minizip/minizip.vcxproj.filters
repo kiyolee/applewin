@@ -15,39 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\zip_lib\ioapi.c">
+    <ClCompile Include="..\..\minizip\ioapi.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zip_lib\iowin32.c">
+    <ClCompile Include="..\..\minizip\iowin32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zip_lib\mztools.c">
+    <ClCompile Include="..\..\minizip\mztools.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zip_lib\unzip.c">
+    <ClCompile Include="..\..\minizip\unzip.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zip_lib\zip.c">
+    <ClCompile Include="..\..\minizip\zip.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\zip_lib\crypt.h">
+    <ClInclude Include="..\..\minizip\crypt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zip_lib\ioapi.h">
+    <ClInclude Include="..\..\minizip\ioapi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zip_lib\iowin32.h">
+    <ClInclude Include="..\..\minizip\iowin32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zip_lib\mztools.h">
+    <ClInclude Include="..\..\minizip\mztools.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zip_lib\unzip.h">
+    <ClInclude Include="..\..\minizip\unzip.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zip_lib\zip.h">
+    <ClInclude Include="..\..\minizip\zip.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
