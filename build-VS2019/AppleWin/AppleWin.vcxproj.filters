@@ -707,6 +707,9 @@
     <ClInclude Include="..\..\source\MockingboardDefs.h">
       <Filter>Header Files\Emulator</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\source\MemoryDefs.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\source\CPU\cpu_general.inl">
