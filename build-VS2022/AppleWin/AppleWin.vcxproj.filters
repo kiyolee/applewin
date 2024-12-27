@@ -617,10 +617,10 @@
     <ClInclude Include="..\..\source\Tfe\Pcap.h">
       <Filter>Header Files\Uthernet</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\source\Tfe\Tfearch.h">
+    <ClInclude Include="..\..\source\Tfe\tfearch.h">
       <Filter>Header Files\Uthernet</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\source\Tfe\Tfesupp.h">
+    <ClInclude Include="..\..\source\Tfe\tfesupp.h">
       <Filter>Header Files\Uthernet</Filter>
     </ClInclude>
     <ClInclude Include="..\..\source\Tfe\Uilib.h">
