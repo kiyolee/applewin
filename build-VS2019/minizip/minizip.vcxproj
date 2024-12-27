@@ -11,39 +11,39 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\zip_lib\crypt.h" />
-    <ClInclude Include="..\..\zip_lib\ioapi.h" />
-    <ClInclude Include="..\..\zip_lib\iowin32.h" />
-    <ClInclude Include="..\..\zip_lib\mztools.h" />
-    <ClInclude Include="..\..\zip_lib\unzip.h" />
-    <ClInclude Include="..\..\zip_lib\zip.h" />
+    <ClInclude Include="..\..\minizip\crypt.h" />
+    <ClInclude Include="..\..\minizip\ioapi.h" />
+    <ClInclude Include="..\..\minizip\iowin32.h" />
+    <ClInclude Include="..\..\minizip\mztools.h" />
+    <ClInclude Include="..\..\minizip\unzip.h" />
+    <ClInclude Include="..\..\minizip\zip.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\zip_lib\ioapi.c" />
-    <ClCompile Include="..\..\zip_lib\iowin32.c" />
-    <ClCompile Include="..\..\zip_lib\mztools.c" />
-    <ClCompile Include="..\..\zip_lib\unzip.c" />
-    <ClCompile Include="..\..\zip_lib\zip.c" />
+    <ClCompile Include="..\..\minizip\ioapi.c" />
+    <ClCompile Include="..\..\minizip\iowin32.c" />
+    <ClCompile Include="..\..\minizip\mztools.c" />
+    <ClCompile Include="..\..\minizip\unzip.c" />
+    <ClCompile Include="..\..\minizip\zip.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{509739E7-0AF3-4C09-A1A9-F0B1BC31B39D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>zip_lib</RootNamespace>
-    <ProjectName>zip_lib</ProjectName>
+    <RootNamespace>minizip</RootNamespace>
+    <ProjectName>minizip</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
