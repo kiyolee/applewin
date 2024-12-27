@@ -213,13 +213,13 @@
     <ClCompile Include="..\..\source\Tfe\IPRaw.cpp" />
     <ClCompile Include="..\..\source\Tfe\NetworkBackend.cpp" />
     <ClCompile Include="..\..\source\Tfe\PCapBackend.cpp" />
-    <ClCompile Include="..\..\source\Tfe\Tfearch.cpp">
+    <ClCompile Include="..\..\source\Tfe\tfearch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NoDX|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NoDX|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="..\..\source\Tfe\Tfesupp.cpp">
+    <ClCompile Include="..\..\source\Tfe\tfesupp.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NoDX|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
