@@ -73,6 +73,7 @@
     <ClInclude Include="..\..\source\DiskImage.h" />
     <ClInclude Include="..\..\source\DiskImageHelper.h" />
     <ClInclude Include="..\..\source\DiskLog.h" />
+    <ClInclude Include="..\..\source\MemoryDefs.h" />
     <ClInclude Include="..\..\source\MockingboardCardManager.h" />
     <ClInclude Include="..\..\source\MockingboardDefs.h" />
     <ClInclude Include="..\..\source\StrFormat.h" />
