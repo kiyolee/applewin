@@ -51,7 +51,6 @@
     <ClInclude Include="..\..\source\CPU\cpu6502.h" />
     <ClInclude Include="..\..\source\CPU\cpu65C02.h" />
     <ClInclude Include="..\..\source\Debugger\Debug.h" />
-    <ClInclude Include="..\..\source\Debugger\DebugDefs.h" />
     <ClInclude Include="..\..\source\Debugger\Debugger_Assembler.h" />
     <ClInclude Include="..\..\source\Debugger\Debugger_Color.h" />
     <ClInclude Include="..\..\source\Debugger\Debugger_Console.h" />
@@ -443,6 +442,9 @@
     <PreBuildEvent>
       <Message>Performing unit-test: TestCPU6502</Message>
     </PreBuildEvent>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..</AdditionalIncludeDirectories>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug NoDX|Win32'">
     <ClCompile>
@@ -464,6 +466,9 @@
     </Link>
     <PreBuildEvent />
     <PreBuildEvent />
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..</AdditionalIncludeDirectories>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -495,6 +500,9 @@
     <PreBuildEvent>
       <Message>Performing unit-test: TestCPU6502</Message>
     </PreBuildEvent>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..</AdditionalIncludeDirectories>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release NoDX|Win32'">
     <ClCompile>
@@ -522,6 +530,9 @@
     </Link>
     <PreBuildEvent />
     <PreBuildEvent />
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..</AdditionalIncludeDirectories>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
