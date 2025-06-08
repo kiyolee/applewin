@@ -568,6 +568,9 @@
     <PreBuildEvent>
       <Message>Performing unit-test: TestCPU6502</Message>
     </PreBuildEvent>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..</AdditionalIncludeDirectories>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug NoDX|Win32'">
     <ClCompile>
@@ -617,6 +620,9 @@
     </Link>
     <PreBuildEvent />
     <PreBuildEvent />
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..</AdditionalIncludeDirectories>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -686,6 +692,9 @@
     <PreBuildEvent>
       <Message>Performing unit-test: TestCPU6502</Message>
     </PreBuildEvent>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..</AdditionalIncludeDirectories>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release NoDX|Win32'">
     <ClCompile>
@@ -747,6 +756,9 @@
     </Link>
     <PreBuildEvent />
     <PreBuildEvent />
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..</AdditionalIncludeDirectories>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
