@@ -437,9 +437,6 @@
     <ClInclude Include="..\..\source\Debugger\Debug.h">
       <Filter>Header Files\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\source\Debugger\DebugDefs.h">
-      <Filter>Header Files\Debugger</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\source\Debugger\Debugger_Assembler.h">
       <Filter>Header Files\Debugger</Filter>
     </ClInclude>
