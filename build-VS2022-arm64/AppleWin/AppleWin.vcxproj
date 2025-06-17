@@ -75,6 +75,8 @@
     <ClInclude Include="..\..\source\MemoryDefs.h" />
     <ClInclude Include="..\..\source\MockingboardCardManager.h" />
     <ClInclude Include="..\..\source\MockingboardDefs.h" />
+    <ClInclude Include="..\..\source\ProDOS_FileSystem.h" />
+    <ClInclude Include="..\..\source\ProDOS_Utils.h" />
     <ClInclude Include="..\..\source\SoundBuffer.h" />
     <ClInclude Include="..\..\source\StrFormat.h" />
     <ClInclude Include="..\..\source\FourPlay.h" />
@@ -176,6 +178,7 @@
     <ClCompile Include="..\..\source\DiskImage.cpp" />
     <ClCompile Include="..\..\source\DiskImageHelper.cpp" />
     <ClCompile Include="..\..\source\MockingboardCardManager.cpp" />
+    <ClCompile Include="..\..\source\ProDOS_Utils.cpp" />
     <ClCompile Include="..\..\source\StrFormat.cpp" />
     <ClCompile Include="..\..\source\FourPlay.cpp" />
     <ClCompile Include="..\..\source\FrameBase.cpp" />
@@ -367,28 +370,28 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug NoDX|ARM64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>false</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release NoDX|ARM64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>false</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">

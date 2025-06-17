@@ -366,6 +366,9 @@
     <ClCompile Include="..\..\source\Windows\DXSoundBuffer.cpp">
       <Filter>Source Files\Windows</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\source\ProDOS_Utils.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\source\CmdLine.h">
@@ -715,6 +718,12 @@
     </ClInclude>
     <ClInclude Include="..\..\source\Windows\DXSoundBuffer.h">
       <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\ProDOS_FileSystem.h">
+      <Filter>Header Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\ProDOS_Utils.h">
+      <Filter>Header Files\Emulator</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
