@@ -11,8 +11,10 @@
 # Build results
 [Dd]ebug/
 [Dd]ebug v141_xp/
+[Dd]ebug [Nn]o[Dd][Xx]/
 [Rr]elease/
 [Rr]elease v141_xp/
+[Rr]elease [Nn]o[Dd][Xx]/
 x64/
 x86/
 build/
