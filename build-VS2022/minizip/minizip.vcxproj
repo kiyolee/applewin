@@ -20,9 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\minizip\crypt.h" />
+    <ClInclude Include="..\..\minizip\ints.h" />
     <ClInclude Include="..\..\minizip\ioapi.h" />
     <ClInclude Include="..\..\minizip\iowin32.h" />
     <ClInclude Include="..\..\minizip\mztools.h" />
+    <ClInclude Include="..\..\minizip\skipset.h" />
     <ClInclude Include="..\..\minizip\unzip.h" />
     <ClInclude Include="..\..\minizip\zip.h" />
   </ItemGroup>
