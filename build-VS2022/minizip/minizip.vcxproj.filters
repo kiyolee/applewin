@@ -35,6 +35,9 @@
     <ClInclude Include="..\..\minizip\crypt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\minizip\ints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\minizip\ioapi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\minizip\mztools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\minizip\skipset.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\minizip\unzip.h">
